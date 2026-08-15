@@ -38,14 +38,11 @@ namespace C__Practice
 
             foreach(int number in numbers)
             {
-                if(!seen.Add(number))
-                    duplicate.Add(number);
+                if (!seen.Add(number))
+                    //duplicate.Add(number);
+                    Console.WriteLine(number);
             }
 
-            foreach(int number in duplicate)
-            {
-                Console.WriteLine(number);
-            }
         }
     }
 }
