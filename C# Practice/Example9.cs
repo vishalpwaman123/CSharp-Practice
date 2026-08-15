@@ -46,11 +46,6 @@ namespace C__Practice
             Console.WriteLine($"Is both string is anagrams : {frequency.Count == 0}");
 
 
-            Console.WriteLine("----------------------------------------------------------");
-
-            //HASH
-
-
 
         }
     }
