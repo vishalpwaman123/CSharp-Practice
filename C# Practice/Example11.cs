@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace C__Practice
+﻿namespace C__Practice
 {
     public class Example11
     {
         public static void Run()
         {
+
+            //Q11. Group words that are anagrams
+
             string[] texts = ["eat", "tea", "tan", "ate", "nat", "bat"];
             Dictionary<string, List<string>> groups = new Dictionary<string, List<string>>();
 
