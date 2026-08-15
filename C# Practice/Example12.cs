@@ -8,6 +8,8 @@ namespace C__Practice
     {
         public static void Run()
         {
+            //Q12. Find the top K frequent elements
+
             int[] numbers = { 1, 1, 1, 2, 2, 3 };
             int k = 2;
 
