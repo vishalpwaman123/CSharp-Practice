@@ -1,30 +1,35 @@
 ﻿using C__Practice;
 
-//Example1.Run();
-//Example2.Run();
-//Example3.Run();
-//Example4.Run();
-//Example5.Run();
-//Example6.Run();
-//Example7.Run();
-//Example8.Run();
-//Example9.Run();
-//Example10.Run();
-//Example11.Run();
-//Example12.Run();
-//Example13.Run();
-//Example14.Run();
-//Example15.Run();
-//Example16.Run();
-//Example17.Run();
-//Example18.Run();
-//Example19.Run();
-//Example20.Run();
-// Example21.Run();
-// Example22.Run();
-// Example23.Run();
-// Example24.Run();
-Example25.Run();
+//DictExample1.Run();
+//DictExample2.Run();
+//DictExample3.Run();
+//DictExample4.Run();
+//DictExample5.Run();
+//DictExample6.Run();
+//DictExample7.Run();
+//DictExample8.Run();
+
+//DictHashExample1.Run();
+//DictHashExample2.Run();
+//DictHashExample3.Run();
+//DictHashExample4.Run();
+//DictHashExample5.Run();
+//DictHashExample6.Run();
+//DictHashExample7.Run();
+//DictHashExample8.Run();
+
+//HashExample1.Run();
+//HashExample2.Run();
+
+//PatternExample1.Run();
+
+//SlidingWindowExample1.Run();
+//SlidingWindowExample2.Run();
+//SlidingWindowExample3.Run();
+//SlidingWindowExample4.Run();
+//SlidingWindowExample5.Run();
+//SlidingWindowExample6.Run();
+SlidingWindowExample7.Run();
 
 
 
