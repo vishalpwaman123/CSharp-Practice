@@ -1,6 +1,6 @@
 ﻿namespace C__Practice
 {
-    public class Example11
+    public class DictExample3
     {
         public static void Run()
         {

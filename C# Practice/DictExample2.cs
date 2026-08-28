@@ -5,7 +5,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace C__Practice
 {
-    public class Example10
+    public class DictExample2
     {
         public static void Run()
         {
