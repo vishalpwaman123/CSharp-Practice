@@ -1,7 +1,7 @@
 ﻿
 namespace C__Practice
 {
-    public class Example2
+    public class DictHashExample1
     {
         public static void Run()
         {

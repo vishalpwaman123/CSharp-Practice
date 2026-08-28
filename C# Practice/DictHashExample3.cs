@@ -4,7 +4,7 @@ using System.Text;
 
 namespace C__Practice
 {
-    public class Example4
+    public class DictHashExample3
     {
         public static void Run()
         {
