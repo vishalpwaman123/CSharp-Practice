@@ -1,6 +1,6 @@
 ﻿namespace C__Practice
 {
-    public class Example22
+    public class SlidingWindowExample3
     {
         public static void Run()
         {

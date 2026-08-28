@@ -4,7 +4,7 @@ using System.Text;
 
 namespace C__Practice
 {
-    public class Example21
+    public class SlidingWindowExample2
     {
         public static void Run()
         {
