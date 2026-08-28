@@ -4,7 +4,7 @@ using System.Text;
 
 namespace C__Practice
 {
-    public class Example13
+    public class PatternExample1
     {
         public static void Run()
         {
@@ -14,12 +14,11 @@ namespace C__Practice
             //  *****
             // *******
             //*********
-
-        string str = "";
-
-            for (int i = 1; i <= 5; i++)
+            int n = int.Parse(Console.ReadLine());
+            
+            for (int i = 1; i <= n; i++)
                 Console.WriteLine(
-                    new string(' ', 4-(i-1)) +
+                    new string(' ', (n-i)) +
                     new string('*', 2*i-1)
                     );
         }
