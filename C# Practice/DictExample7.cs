@@ -4,7 +4,7 @@ using System.Text;
 
 namespace C__Practice
 {
-    public class Example15
+    public class DictExample7
     {
         public static void Run()
         {
