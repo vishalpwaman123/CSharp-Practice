@@ -6,7 +6,7 @@ using System.Text;
 
 namespace C__Practice
 {
-    public class Example5
+    public class DictExample5
     {
         public static void Run()
         {
