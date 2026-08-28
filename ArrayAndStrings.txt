@@ -1,0 +1,12 @@
+1. Contains Duplicate
+2. Missing Number
+3. Numbers Disappeared Array
+4. Two Sum
+5. How Many Number Are Smaller Than The Current Number
+6. Minimum Time Visiting All Points
+7. Spiral Matrix
+8. Number Of Islands
+9. Best Time Buys And Sell Stock
+10.Square Of Sorted Array
+11.3Sum
+12.L
