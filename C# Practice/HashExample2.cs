@@ -4,7 +4,7 @@ using System.Text;
 
 namespace C__Practice
 {
-    public class Example19
+    public class HashExample2
     {
         public static void Run()
         {
