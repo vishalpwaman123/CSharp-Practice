@@ -6,17 +6,16 @@ namespace Array_Console
 {
     public class ArrayExample3
     {
-        public int[] ReverseArray(int[] arr)
+        public int[] MoveZeroes(int[] arr)
         {
-            int left = 0;
-            int right = arr.Length - 1;
+            int count = 0;
+            foreach (int number in arr)
+                if (number != 0)
+                    arr[count++] = number;
 
-            while (left < right)
-            {
-                (arr[left], arr[right]) = (arr[right], arr[left]);
-                left++;
-                right--;
-            }
+
+            while (count < arr.Length)
+                arr[count++] = 0;
 
             return arr;
         }
