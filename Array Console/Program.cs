@@ -21,9 +21,9 @@
 //Console.WriteLine(string.Join(", ", obj3.MoveZeroes([0, 0, 1])));
 
 
-//Problem 4 — Move All Zeroes to the End
+//Problem 4 — Remove Duplicates from Sorted ArrayProblem 4 — Move All Zeroes to the End
 ArrayExample4 obj4 = new();
-Console.WriteLine(string.Join(", ", obj4.MoveZeroesToEnd([0, 1, 0, 3, 12])));
-Console.WriteLine(string.Join(", ", obj4.MoveZeroesToEnd([1, 2, 3])));
-Console.WriteLine(string.Join(", ", obj4.MoveZeroesToEnd([0, 0, 0])));
-Console.WriteLine(string.Join(", ", obj4.MoveZeroesToEnd([0, 0, 5])));
+Console.WriteLine(obj4.RemoveDuplicates([0, 0, 1, 1, 1, 2, 2, 3]));
+Console.WriteLine(obj4.RemoveDuplicates([1, 1, 2]));
+Console.WriteLine(obj4.RemoveDuplicates([1, 2, 3]));
+Console.WriteLine(obj4.RemoveDuplicates([1, 1, 1, 1]));

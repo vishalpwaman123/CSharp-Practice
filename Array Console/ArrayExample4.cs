@@ -6,18 +6,26 @@ namespace Array_Console
 {
     public class ArrayExample4
     {
-        public int[] MoveZeroesToEnd(int[] arr)
+        public int RemoveDuplicates(int[] arr)
         {
-            int insertAt = 0;
+            int count = 0, first, second;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (i > 0)
+                    if (arr[i - 1] == arr[i])
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        arr[count++] = arr[i];
 
-            foreach (int number in arr)
-                if (number != 0)
-                    arr[insertAt++] = number;
+                    }
+                else
+                    arr[count++] = arr[i];
+            }
 
-            while (insertAt < arr.Length)
-                arr[insertAt++] = 0;
-
-            return arr;
+            return count;
         }
     }
 }
