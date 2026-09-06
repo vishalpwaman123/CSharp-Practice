@@ -1,4 +1,6 @@
 <Solution>
-  <Project Path="Array Console/Array Console.csproj" Id="22d08d19-1133-4da3-9e38-a651c23c3225" />
+  <Project Path="Array Console/Array Practice.csproj" Id="22d08d19-1133-4da3-9e38-a651c23c3225" />
   <Project Path="C# Practice/C# Practice.csproj" />
+  <Project Path="Queue/Queue Practice.csproj" Id="37f04fd2-1926-43d8-88f2-4c5601887af6" />
+  <Project Path="Stack Project/Stack Practice.csproj" Id="71b34df0-0f77-423f-9649-4634086d247f" />
 </Solution>
