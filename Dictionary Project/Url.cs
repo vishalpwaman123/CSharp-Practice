@@ -41,15 +41,15 @@ namespace Dictionary_Project
 
         public string GetShortCode()
         {
-            string result = string.Empty;
+            //string result = string.Empty;
 
-            for (int i = 0; i < 3; i++)
-                result += letters[Random.Shared.Next(letters.Length)];
+            //for (int i = 0; i < 3; i++)
+            //    result += letters[Random.Shared.Next(letters.Length)];
 
-            for (int i = 0; i < 3; i++)
-                result += numbers[Random.Shared.Next(numbers.Length)];
+            //for (int i = 0; i < 3; i++)
+            //    result += numbers[Random.Shared.Next(numbers.Length)];
 
-            return result;
+            return Guid.NewGuid().ToString("N")[..6];
         }
     }
 }
