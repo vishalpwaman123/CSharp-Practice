@@ -79,18 +79,23 @@
 ShoppingCart cart = new();
 
 cart.AddItem("P_01", "TV", 1000, 10);
+cart.AddItem("P_02", "BIKE", 2000, 10);
 
 Console.WriteLine("Total Price : "+cart.GetTotalAmount("P_01"));
 
 cart.AddItem("P_01", "TV", 1000, 7);
+cart.AddItem("P_02", "BIKE", 2000, 7);
+
 
 Console.WriteLine("Total Price After Adding Same product : " + cart.GetTotalAmount("P_01"));
 
 cart.UpdateQuantity("P_01", 3);
+cart.UpdateQuantity("P_02", 3);
 
 Console.WriteLine("Total Price After Updating Same product : " + cart.GetTotalAmount("P_01"));
 
 cart.RemoveItem("P_01");
+cart.RemoveItem("P_02");
 
 //Console.WriteLine("Total Price After removing Same product : " + cart.GetTotalAmount("P_01"));
 
