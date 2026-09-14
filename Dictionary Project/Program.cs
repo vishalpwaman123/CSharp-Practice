@@ -50,11 +50,26 @@
 
 //------------------------ EXAMPLE 4 ---------------------------
 
-Url url = new Url();
+//Url url = new Url();
 
-string shortCode = url.Shorten("www.google.com");
+//string shortCode = url.Shorten("www.google.com");
 
-Console.WriteLine("Short Code : " + shortCode);
+//Console.WriteLine("Short Code : " + shortCode);
 
-Console.WriteLine("Url : " + url.GetOriginalUrl(shortCode));
+//Console.WriteLine("Url : " + url.GetOriginalUrl(shortCode));
 
+//------------------------ EXAMPLE 5 ---------------------------
+
+BankAccount bankAccount = new();
+
+bankAccount.CreateAccount("ACCOUNT_01", "VISHAL", 1000);
+
+Console.WriteLine("Initial Account Balance : " + bankAccount.GetBalance("ACCOUNT_01"));
+
+bankAccount.Deposit("ACCOUNT_01", 500);
+
+Console.WriteLine("Account Balance After Deposit : " + bankAccount.GetBalance("ACCOUNT_01"));
+
+bankAccount.Withdraw("ACCOUNT_01", 300);
+
+Console.WriteLine("Account Balance After WithDraw : " + bankAccount.GetBalance("ACCOUNT_01"));
