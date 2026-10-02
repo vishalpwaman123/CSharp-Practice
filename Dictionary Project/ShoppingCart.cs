@@ -63,7 +63,7 @@ namespace Dictionary_Project
             if (!_cart.TryGetValue(productId, out ShoppingCartInfo? shoppingCart))
                 throw new InvalidOperationException("Shopping Cart not found");
 
-            shoppingCart.Quentity += quentity;
+            shoppingCart.Quentity = quentity;
         }
 
         public int GetTotalAmount(string productId)
