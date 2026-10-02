@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StringPractice
+{
+    public class Count
+    {
+        public static int CountVowel(string input)
+        {
+            char[] vowels = { 'a', 'e', 'o', 'u', 'i' };
+            int count = 0;
+            foreach (char c in input)
+                if (vowels.Contains(char.ToLower(c)))
+                    count += 1;
+
+            return count;
+        }
+    }
+}
