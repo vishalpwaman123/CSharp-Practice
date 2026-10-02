@@ -66,14 +66,8 @@ namespace Dictionary_Project
             shoppingCart.Quentity = quentity;
         }
 
-        public int GetTotalAmount(string productId)
+        public int GetTotalAmount()
         {
-            if (string.IsNullOrWhiteSpace(productId))
-                throw new ArgumentException("product Id is required");
-
-            if (!_cart.TryGetValue(productId, out ShoppingCartInfo? shoppingCart))
-                throw new InvalidOperationException("Shopping cart not found");
-
             int totalAmount = 0;
             foreach (var item in _cart.Values)
                 totalAmount += item.Price * item.Quentity;
