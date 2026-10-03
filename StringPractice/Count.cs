@@ -39,5 +39,19 @@ namespace StringPractice
 
             return unique;
         }
+
+        public static string ReverseEachWord(string input)
+        {
+            string[] words = input.Split(' ');
+            string result = string.Empty;
+            foreach(string word in words)
+            {
+                for(int i=word.Length-1; i>=0; i--)
+                    result += word[i];
+                result += ' ';
+            }
+
+            return result.Trim();
+        }
     }
 }
