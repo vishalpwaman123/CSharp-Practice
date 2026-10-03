@@ -53,5 +53,17 @@ namespace StringPractice
 
             return result.Trim();
         }
+
+        public static bool IsAnagram(string input1, string input2)
+        {
+            if(input1.Length != input2.Length)
+                return false;
+
+            char[] c1 = input1.ToCharArray();
+            Array.Sort(c1);
+            char[] c2 = input2.ToCharArray();
+            Array.Sort(c2);
+            return new string(c1) == new string(c2);
+        }
     }
 }
