@@ -16,5 +16,15 @@ namespace StringPractice
 
             return count;
         }
+
+        public static int CountCharacter(string input, char target)
+        {
+            int count = 0;
+            foreach (char c in input)
+                if (char.ToLower(c) == char.ToLower(target))
+                    count += 1;
+
+            return count;
+        }
     }
 }
