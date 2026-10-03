@@ -26,5 +26,18 @@ namespace StringPractice
 
             return count;
         }
+
+        public static string RemoveDuplicate(string input)
+        {
+            string unique = string.Empty;
+            foreach (char c in input)
+            {
+                if (unique.Contains(c))
+                    continue;
+                unique += c;
+            }
+
+            return unique;
+        }
     }
 }

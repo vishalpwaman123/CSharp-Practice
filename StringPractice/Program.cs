@@ -14,4 +14,5 @@ using System.Text;
 // Count 
 
 //Console.WriteLine("Count Vowel : "+Count.CountVowel("vishal waman"));
-Console.WriteLine("Count Character : " + Count.CountCharacter("vishal waman", 'w'));
+//Console.WriteLine("Count Character : " + Count.CountCharacter("vishal waman", 'w'));
+Console.WriteLine("Remove Duplicate Character : " + Count.RemoveDuplicate("programming"));
