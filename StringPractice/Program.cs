@@ -17,4 +17,4 @@ using System.Text;
 //Console.WriteLine("Count Character : " + Count.CountCharacter("vishal waman", 'w'));
 //Console.WriteLine("Remove Duplicate Character : " + Count.RemoveDuplicate("programming"));
 //Console.WriteLine("Reverse Each Word : " + Count.ReverseEachWord("Vishal Waman"));
-Console.WriteLine("Is Anagram : " + Count.IsAnagram("listen", "silen1"));
+Console.WriteLine("Is Anagram : " + Count.IsAnagram("listen", "silent"));
